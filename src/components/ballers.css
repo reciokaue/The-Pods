@@ -1,0 +1,27 @@
+.grid{
+    display: grid;
+    margin: 0 auto;
+    grid-template-rows: 24rem 1fr 1fr 1fr;
+    grid-template-columns: 24rem;
+    row-gap: 1.5rem;
+
+    grid-template-areas: 'cover' 'title' 'episodes' '.';
+
+
+}
+@media (min-width: 1024px){
+    .grid{
+        column-gap: 6rem
+    }
+}
+@media (min-width: 768px){
+    .grid{
+        grid-template-rows: 20rem 1fr;
+        grid-template-columns: 20rem 1fr;
+
+        column-gap: 3rem;
+
+        grid-template-areas: 'cover title'
+                            'text episodes'; 
+    }
+}

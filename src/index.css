@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiasing;
+}
+html,body, #root{
+    height: 100%;
+    width: 100%;
+}
+*, button, input{
+    outline:0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
