@@ -4,3 +4,5 @@
 
 Podcast concept
 Responsive, build using react js and tailwind
+
+Added to the original project the dark mode and the responsive UI
